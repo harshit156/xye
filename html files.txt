@@ -1,0 +1,26 @@
+   
+<!doctype html>
+<html>
+<head>
+<title>my nmae</title>
+<script>
+function assign()
+{
+var a=8,b=4;
+a+=b
+document.getElementById("p1").innerHTML+="<br>"+"a+=b"+"is" +a;
+a-=b
+document.getElementById("p1").innerHTML+="<br>"+"a-=b"+"is" +a;
+a*=b
+document.getElementById("p1").innerHTML+="<br>"+"a*=b"+"is" +a;
+a/=b
+document.getElementById("p1").innerHTML+="<br>"+"a/=b"+"is" +a;
+}
+</script>
+</head>
+
+<body>
+<p id ="p1">let variable a=8, b=4</p>
+<p onclick="assign()">click here to display assignment operator</p>
+</body>
+</html>
